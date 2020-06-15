@@ -22,6 +22,8 @@ export class AppComponent {
       //this.error=true;
       console.log(errorServicio);
     });
+
+
   }
 
 

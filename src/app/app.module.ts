@@ -16,6 +16,9 @@ import {APP_ROUTING} from './app.routes';
 
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { BuscarComponent } from './components/buscar/buscar.component';
+import { PeliculaImagenPipePipe } from './pipes/pelicula-imagen-pipe.pipe';
+import { CuadroComponent } from './componets/home/cuadro/cuadro.component';
+import { GaleriaComponent } from './componets/home/galeria/galeria.component';
 
 
 
@@ -26,7 +29,10 @@ import { BuscarComponent } from './components/buscar/buscar.component';
     HomeComponent,
     PeliculaComponent,
     NavbarComponent,
-    BuscarComponent
+    BuscarComponent,
+    PeliculaImagenPipePipe,
+    CuadroComponent,
+    GaleriaComponent
   ],
   imports: [
     BrowserModule,
