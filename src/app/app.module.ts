@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {FormsModule} from '@angular/forms';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -38,6 +39,7 @@ import { GaleriaComponent } from './componets/home/galeria/galeria.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
     APP_ROUTING
   
   ],

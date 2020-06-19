@@ -2,13 +2,16 @@
 
 html,
 body {
-    height: 100%;
-    margin-bottom: 150px;
+    padding-bottom: 200px;
 }
 
-body {
-    margin: 0;
-    font-family: Roboto, "Helvetica Neue", sans-serif;
+.main-container {
+    margin-bottom: 150px;
+    margin-top: 40px;
+}
+
+.puntero {
+    cursor: pointer;
 }
 
 .div-pic-1 {
