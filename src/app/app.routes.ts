@@ -12,6 +12,8 @@ const app_routes: Routes =[
     {path:'buscar/:texto',component: BuscarComponent},
 
     {path:'pelicula/:id/:pag',component: PeliculaComponent},
+    {path:'pelicula/:id/:pag/:busqueda',component: PeliculaComponent},
+
     {path: '**',pathMatch:'full',redirectTo:'home'}
 
 ];
